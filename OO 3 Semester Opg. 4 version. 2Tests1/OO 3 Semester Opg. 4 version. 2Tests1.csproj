@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>.NETCoreApp,Version=v5.0</TargetFramework>
+    <RootNamespace>OO_3_Semester_Opg._4_version._2Tests1</RootNamespace>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.3" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.3" />
+    <PackageReference Include="coverlet.collector" Version="3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OO 3 Semester Opg. 4 version. 2\OO 3 Semester Opg. 4 version. 2.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Obligatorisk Opgave 3 semester">
+      <HintPath>..\..\Obligatorisk Opgave 3 semester\bin\Debug\net5.0\Obligatorisk Opgave 3 semester.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

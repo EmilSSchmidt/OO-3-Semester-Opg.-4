@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>OO_3_Semester_Opg._4_version._2</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Obligatorisk Opgave 3 semester">
+      <HintPath>..\..\Obligatorisk Opgave 3 semester\bin\Debug\net5.0\Obligatorisk Opgave 3 semester.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
